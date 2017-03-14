@@ -17,27 +17,47 @@ Vamos aos testes:
 4 - Após gerado o csv com as extensions/accounts abra o arquivo register.xml. Nele será possível ver algumas informações de como o script é montado. Primeiro disparando register ao asterisk e em seguida aguardando seu retorno. Para mais detalhes recomendo ler o manual da ferramenta (http://sipp.sourceforge.net/doc/reference.html) pois este é apenas um cenário de testes, sendo possível criar vários outros tipos.
 
 5 - Execute o comando: sipp -sf register.xml -inf register.csv -r 10 -m 1000000 -l 100 -nd -fd 1 -i 192.168.9.172 192.168.9.203:5160
+
     Será possível ver o teste em tempo real. Consulte também o asterisk, será possível ver os registros acontecendo. 	
 
 
 Alguns parâmetros relacionados ao comando:
 -sf filename
+
 	Load test scenario from specified file.
+	
 -inf filename
+
 	Use CSV file to insert data substituted for [field0], [field1], etc into XML scenario.
+	
 -r rate
+
 	Scenario execution rate, default value = 10 times per period, default period = 1000 ms.
+	
 -l limit
+
 	Limit simultaneous calls (default: 3 * call_duration (s) * rate).
+	
 -m   
+
 	Stop the test and exit when 'x' calls are processed.
+	
 -nd
+
 	No default.
+	
 -fd
+
 	Set the statistics dump log report frequency. Default is 60 and default unit is seconds.
+	
 -i 
+
 	Set the local IP address for 'Contact:','Via:', and 'From:' headers. Default is primary host IP address.
+	
 -trace_msg
+
 	Log sent and received SIP messages.
+	
 -trace_err
+
 	Log error message.
