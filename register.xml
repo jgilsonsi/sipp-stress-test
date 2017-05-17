@@ -4,11 +4,12 @@
   @jgilsonsi
 
   Use gen_register_csv.sh to generate register.csv.
+
+  Line command: sipp -sf register.xml -inf register.csv -m 1000000 -l 100 -r 10 -nd -fd 1 -i 192.168.9.172 192.168.9.127:5060
 -->
 
 <scenario name="register_client">
   
-  <!-- send to asterisk -->
   <send retrans="500">
     <![CDATA[
     
@@ -27,14 +28,9 @@
     ]]>
   </send>
 
-  <!-- asterisk response -->
-  <recv response="100" optional="true">
-  </recv>
-
-  <recv response="401" auth="true">
-  </recv>
-
-  <!-- send to asterisk -->	
+  <recv response="100" optional="true"></recv>
+  <recv response="401" auth="true"></recv>
+  
   <send retrans="500">
     <![CDATA[
 
@@ -54,12 +50,8 @@
     ]]>
   </send>
 
-  <!-- asterisk response -->
-  <recv response="100" optional="true">
-  </recv>
-
-  <recv response="200">
-  </recv>
+  <recv response="100" optional="true"></recv>
+  <recv response="200"></recv>
 
   <!-- response time repartition table (ms) -->
   <ResponseTimeRepartition value="10, 20, 30, 40, 50, 100, 150, 200"/>

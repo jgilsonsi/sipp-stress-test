@@ -9,7 +9,7 @@ SIPp é uma ferramenta de teste de desempenho para o protocolo SIP. Ele inclui a
 </p>
 
 <p>
-O SIPp pode ser usado para testar muitos equipamentos SIP reais, como proxies SIP, servidores de mídia SIP, gateways SIP/x e SIP PBXes. Também é muito útil para emular milhares de agentes de usuário chamando seu sistema SIP, que é o caso do nosso teste. Vamos emular milhares de registros sendo disparados a um servidor.
+O SIPp pode ser usado para testar muitos equipamentos SIP reais, como proxies SIP, servidores de mídia SIP, gateways SIP/x e SIP PBXs. Também é muito útil para emular milhares de agentes de usuário chamando seu sistema SIP, que é o caso do nosso teste. Vamos emular milhares de registros sendo disparados a um servidor.
 </p>
 
 <p>
@@ -17,7 +17,7 @@ Vamos aos testes:
 </p>
 
 <p>
-1 - Você precisa instalar a ferramenta. Para isso, siga os passos conforme o site oficial: http://sipp.sourceforge.net/doc/reference.html#Installation. Caso tenha dificuldades na instalação ou queira agilizar o processo pode tambeḿ baixar uma máquina virtual chamada KALI https://www.kali.org/downloads/, essa VM já possui a ferramenta instalada.
+1 - Você precisa instalar a ferramenta. Para isso, siga os passos conforme o site oficial: http://sipp.sourceforge.net/doc/reference.html#Installation. Caso tenha dificuldades na instalação ou queira agilizar o processo pode também baixar uma máquina virtual chamada KALI https://www.kali.org/downloads/, essa VM já possui a ferramenta instalada.
 </p>
 
 <p>
