@@ -6,7 +6,7 @@
 
 
 #TYPE: RANDOM, SEQUENTIAL AND USER
-echo "RANDOM" 
-for i in `seq 1000 3000`; do
+echo "SEQUENTIAL" 
+for i in `seq 1000 1010`; do
         echo "$i;192.168.9.127;[authentication username=$i password=asterisk$i];1001;"
 done
