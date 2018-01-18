@@ -5,7 +5,7 @@
 
   Use gen_register_csv.sh to generate register.csv.
 
-  Line command: sipp -sf register.xml -inf register.csv -m 1000000 -l 100 -r 10 -nd -fd 1 -i 192.168.9.172 192.168.9.127:5060
+  Line command: sipp -sf register.xml -inf register.csv -m 1000000 -l 100 -r 10 -nd -fd 1 -i 192.168.9.199 192.168.9.206:5060
 -->
 
 <scenario name="register_client">
@@ -53,10 +53,8 @@
   <recv response="100" optional="true"></recv>
   <recv response="200"></recv>
 
-  <!-- response time repartition table (ms) -->
   <ResponseTimeRepartition value="10, 20, 30, 40, 50, 100, 150, 200"/>
 
-  <!-- call length repartition table (ms) -->
   <CallLengthRepartition value="10, 50, 100, 500, 1000, 5000, 10000"/>
 
 </scenario>
