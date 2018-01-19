@@ -13,6 +13,11 @@ O SIPp pode ser usado para testar muitos equipamentos SIP reais, como proxies SI
 </p>
 
 <p>
+Caso queira montar o ambiente o link a seguir demonstra como fazer a instalação:
+http://sipptutorial.blogspot.com.br/2013/08/how-to-install-sipp-in-linux.html
+</p>  
+
+<p>
 Vamos aos testes:
 </p>
 
