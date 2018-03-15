@@ -1,4 +1,4 @@
-<b>Teste de stress de registro em servidor SIP</b>
+<b>Teste de stress de registro e ligações em servidor SIP</b>
 
 <p>
 O teste de stress demonstrado nesse projeto faz diversos registros em um determinado servidor SIP usando SIPp.
